@@ -1,0 +1,103 @@
+body{
+    background-image: url(Recursos/Cooking.gif);
+    background-repeat: no-repeat;
+    background-position: center; /* Centra la imagen en el eje horizontal y vertical */
+    background-size: cover;
+    background-attachment: fixed; /
+}
+
+.titulo{
+    font-family: Blackadder ITC;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.tituloTable{
+    font-family: Blackadder ITC;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    margin: 3%;
+}
+
+.container-fluid {
+    background-color: #fba345;
+    padding: 5%;
+}
+
+.parrafo-1{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 1%;
+    font-size: medium;
+}
+
+.table{
+    color: white;
+    background-color: rgba(113, 61, 36, 0.6);
+    width: 100%;
+}
+
+p{
+    font-size: 14px; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img{
+   width: 80%;
+   height: 80%;
+   margin-left: 15%;
+}
+
+th{
+    text-align: center;
+}
+
+footer{
+    padding: 30px;
+    background-color: #913c07;
+}
+
+a:hover{
+    background-color: #913c07 ;
+    color:#AF7AC5 ;
+    font-size: 20px;
+}
+a.links{
+    color: red;
+    text-decoration: none;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 10xp;
+}
+
+.imagenNav{
+ width: 30px;
+ height: 30px;
+ text-align: center;
+}
+
+li{
+    margin: 10px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  }
+
+  

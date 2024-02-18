@@ -1,0 +1,100 @@
+img{
+    width: 50%;
+    padding: 20px;
+ }
+ a:hover{
+    background-color: #913c07 ;
+    color:#AF7AC5 ;
+    font-size: 20px;
+}
+a.links{
+    color: red;
+    text-decoration: none;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 10xp;
+}
+
+.imagenNav{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+li{
+    margin: 20px;
+}
+
+body{
+    background-image: url(Recursos/BanderaJapon.png);
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: 2%;
+
+}
+
+.titulo{
+    font-family: Blackadder ITC;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.container-fluid {
+    background-image: url(Recursos/stockItalia.jpg);
+    padding: 5%;
+}
+
+#container{
+    background-color: rgba(188, 188, 188, 0.8);
+    border: solid black;
+}
+
+h3{
+    text-align: center;
+    text-decoration: solid;
+    padding: 2%;
+}
+
+h4{
+    text-align: center;
+    padding: 1%;
+}
+
+.parrafo-1{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    padding: 1%;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+p{
+    text-decoration: solid;
+    font-size: 20px;  
+    margin: 0 auto;
+    padding: 2%;
+}
+
+video{
+    padding: 2%;
+}
+
+audio{
+    text-align: center;
+}
+footer{
+    padding: 30px;
+    background-image: url(Recursos/stockItalia.jpg);
+}
+
+
+
+  
+    
